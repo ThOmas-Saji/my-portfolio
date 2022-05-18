@@ -1,0 +1,51 @@
+#contact {
+  height: auto;
+  padding-bottom: 8rem;
+}
+.contact_container {
+  text-align: center;
+}
+.link_git{
+  display: flex;
+  width: 15%;
+  margin: auto;
+}
+
+.link_git>:nth-child(2){
+  margin-left: 5rem;
+
+}
+.bottom-name{
+  font-size: 10px;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.contact_container > h5 {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .link_git{
+    width: 20%;
+  }
+  
+  .link_git>:nth-child(2){
+    margin-left: 2rem;
+  
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact_container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .link_git{
+    width: 30%;
+  }
+  
+  #contact {
+    margin-top: 5rem;
+  }
+}
