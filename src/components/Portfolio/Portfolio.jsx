@@ -8,12 +8,12 @@ import BC from "../../Assets/book_club.png"
 const data = [
   {
     id: 1,
-    title: "H & M Clone",
-    des:"An e-commerce website known for its fast fashion for men,women, teenagers, and children.",
-    ts:"HTML | CSS | JavaScript",
-    image: HM,
-    github: "https://github.com/ThOmas-Saji/H-and-M-Clone-Project",
-    live: "https://mystifying-hypatia-3f95a1.netlify.app/",
+    title: "Book Club",
+    des:"A book club webpage where user can browse books, intract with other people and talk about their favorite books",
+    ts:" React | Redux | Socket io | MongoDB | JavaScript | HTML | CSS",
+    image: BC,
+    github: "https://github.com/sreerag-rajan/book-club",
+    live: "https://book-club-project.vercel.app/",
   },
   {
     id: 2,
@@ -26,21 +26,21 @@ const data = [
   },
   {
     id: 3,
+    title: "H & M Clone",
+    des:"An e-commerce website known for its fast fashion for men,women, teenagers, and children.",
+    ts:"HTML | CSS | JavaScript",
+    image: HM,
+    github: "https://github.com/ThOmas-Saji/H-and-M-Clone-Project",
+    live: "https://mystifying-hypatia-3f95a1.netlify.app/",
+  },
+  {
+    id: 4,
     title: "Weather Forecast",
     des:"A simple webpage for checking the current and future weather status.",
     ts:"HTML | CSS | JavaScript",
     image: WF,
     github: "https://github.com/ThOmas-Saji/weather_forecast",
     live: "https://quirky-sammet-f06f9c.netlify.app/",
-  },
-  {
-    id: 4,
-    title: "Book Club",
-    des:"A book club webpage where user can browse books, intract with other people and talk about their favorite books",
-    ts:" React | Redux | Socket io | MongoDB | JavaScript | HTML | CSS",
-    image: BC,
-    github: "https://github.com/sreerag-rajan/book-club",
-    live: "https://book-club-project.vercel.app/",
   },
 ];
 
