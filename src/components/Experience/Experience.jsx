@@ -8,6 +8,8 @@ import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpressvpn } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+
 
 const Experience = () => {
   return (
@@ -36,6 +38,13 @@ const Experience = () => {
               <SiJavascript className="experience_details-icon" />
               <div>
                 <h4>JavaScript</h4>
+                <small className="text-light"></small>
+              </div>{" "}
+            </article>
+            <article className="experience_details">
+              <SiTypescript className="experience_details-icon" />
+              <div>
+                <h4>TypeScript</h4>
                 <small className="text-light"></small>
               </div>{" "}
             </article>

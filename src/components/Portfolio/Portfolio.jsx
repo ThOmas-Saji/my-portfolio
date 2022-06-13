@@ -2,8 +2,10 @@ import React from "react";
 import "./Portfolio.css";
 import HM from "../../Assets/HandM.png";
 import MM from "../../Assets/MamaE.png";
-import WF from "../../Assets/Weather.png";
+import WF from "../../Assets/WA.png";
 import BC from "../../Assets/book_club.png"
+import OS from "../../Assets/onlineStore.png"
+import CM from "../../Assets/CapitalMovies.png"
 
 const data = [
   {
@@ -17,6 +19,24 @@ const data = [
   },
   {
     id: 2,
+    title: "Capital Movies",
+    des:"Movies webpage where user can see latest and popular movies and details, if user logged in he can create a favorite movies list",
+    ts:" React | Redux-toolkit | Nodejs | Express | MongoDB | JavaScript | CSS | Material UI",
+    image: CM,
+    github: "https://github.com/ThOmas-Saji/Capital-Movies",
+    live: "https://capital-movies-ten.vercel.app/discover/popular",
+  },
+  {
+    id: 3,
+    title: "Online Store",
+    des:"A simple e-commerce web site for men, women and kids.",
+    ts:" React | Redux | Nodejs | Express | MongoDB | JavaScript | CSS | Material UI",
+    image: OS,
+    github: "https://github.com/ThOmas-Saji/online-store",
+    live: "https://online-store-tau.vercel.app/",
+  },
+  {
+    id: 4,
     title: "Mama Earth Clone",
     des:"A website for buying various skincare products for babies and females.",
     ts:"HTML | CSS | JavaScript",
@@ -25,22 +45,22 @@ const data = [
     live: "https://eloquent-allen-ba4ad9.netlify.app/",
   },
   {
-    id: 3,
+    id: 5,
+    title: "Weather App 2.0",
+    des:"A simple webpage for checking the current and future weather status.",
+    ts:"React | contextapi | Bootstrap | HTML | CSS | TypeScript",
+    image: WF,
+    github: "https://github.com/ThOmas-Saji/Weather-App-2.0",
+    live: "https://weather-app-2-0-snowy.vercel.app/",
+  },
+  {
+    id: 6,
     title: "H & M Clone",
     des:"An e-commerce website known for its fast fashion for men,women, teenagers, and children.",
     ts:"HTML | CSS | JavaScript",
     image: HM,
     github: "https://github.com/ThOmas-Saji/H-and-M-Clone-Project",
     live: "https://mystifying-hypatia-3f95a1.netlify.app/",
-  },
-  {
-    id: 4,
-    title: "Weather Forecast",
-    des:"A simple webpage for checking the current and future weather status.",
-    ts:"HTML | CSS | JavaScript",
-    image: WF,
-    github: "https://github.com/ThOmas-Saji/weather_forecast",
-    live: "https://quirky-sammet-f06f9c.netlify.app/",
   },
 ];
 
